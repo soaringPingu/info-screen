@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="transport">
+    <file>ui/transport/Bus_white_30x30.png</file>
+  </qresource>
+  <qresource prefix="maps">
+    <file>ui/maps/New Zealand - white - 80x112.png</file>
+    <file>ui/maps/Sweden - white. - 49x112.png</file>
+  </qresource>
+  <qresource prefix="weather">
+    <file>ui/weather/Clear - Day.png</file>
+    <file>ui/weather/Clear - Night.png</file>
+    <file>ui/weather/Hail.png</file>
+    <file>ui/weather/Heavy Rain.png</file>
+    <file>ui/weather/Heavy Showers - Day.png</file>
+    <file>ui/weather/Heavy Showers - Night.png</file>
+    <file>ui/weather/Light Clouds - Day.png</file>
+    <file>ui/weather/Light Clouds - Night.png</file>
+    <file>ui/weather/Light Rain.png</file>
+    <file>ui/weather/Light Showers - Day.png</file>
+    <file>ui/weather/Light Showers - Night.png</file>
+    <file>ui/weather/Other - Sun.png</file>
+    <file>ui/weather/Overcast.png</file>
+    <file>ui/weather/Partly Cloudy - Day.png</file>
+    <file>ui/weather/Partly Cloudy - Night.png</file>
+    <file>ui/weather/Sleet.png</file>
+    <file>ui/weather/Snow.png</file>
+    <file>ui/weather/Snow Showers - Day.png</file>
+    <file>ui/weather/Snow Showers - Night.png</file>
+    <file>ui/weather/Thunder Showers - Day.png</file>
+    <file>ui/weather/Thunder Showers - Night.png</file>
+  </qresource>
+</RCC>

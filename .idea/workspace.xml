@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f7597b4-5439-482a-8d96-b340936c874f" name="Default Changelist" comment="Initial commit with main.py copied from another project as a template.&#10;Not working yet">
+      <change afterPath="$PROJECT_DIR$/gösta.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_gösta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j01DHLs6Y9beDmr3luTV2P8emO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="info-screen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f7597b4-5439-482a-8d96-b340936c874f" name="Default Changelist" comment="" />
+      <created>1602926073474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602926073474</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit with main.py copied from another project as a template.&#10;Not working yet">
+      <created>1602926360724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602926360724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit with main.py copied from another project as a template.&#10;Not working yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with main.py copied from another project as a template.&#10;Not working yet" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602956444134">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state x="147" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.2488.1413@72.27.2488.1413" timestamp="1602956444134" />
+    <state x="1199" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602926146487">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state x="1199" y="491" width="424" height="491" key="FileChooserDialogImpl/72.27.2488.1413@72.27.2488.1413" timestamp="1602926146487" />
+    <state width="1211" height="394" key="GridCell.Tab.0.bottom" timestamp="1602965149299">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1211" height="394" key="GridCell.Tab.0.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1602965149299" />
+    <state width="1211" height="394" key="GridCell.Tab.0.center" timestamp="1602965149299">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1211" height="394" key="GridCell.Tab.0.center/72.27.2488.1413@72.27.2488.1413" timestamp="1602965149299" />
+    <state width="1211" height="394" key="GridCell.Tab.0.left" timestamp="1602965149298">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1211" height="394" key="GridCell.Tab.0.left/72.27.2488.1413@72.27.2488.1413" timestamp="1602965149298" />
+    <state width="1211" height="394" key="GridCell.Tab.0.right" timestamp="1602965149299">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1211" height="394" key="GridCell.Tab.0.right/72.27.2488.1413@72.27.2488.1413" timestamp="1602965149299" />
+  </component>
+</project>
