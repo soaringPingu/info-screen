@@ -410,7 +410,7 @@ background-color: rgb(0, 0, 0);</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>503</x>
@@ -1097,68 +1097,7 @@ background-color: rgb(0, 0, 0);</string>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="">
-       <property name="geometry">
-        <rect>
-         <x>481</x>
-         <y>1061</y>
-         <width>275</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <layout class="QVBoxLayout" name="quote_layout_group">
-        <item>
-         <widget class="QLabel" name="quote_label">
-          <property name="font">
-           <font>
-            <family>rsfs10</family>
-            <pointsize>24</pointsize>
-            <weight>75</weight>
-            <italic>true</italic>
-            <bold>true</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 0, 0);</string>
-          </property>
-          <property name="text">
-           <string notr="true">Bla, bla, blaa...</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="wordWrap">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="quotee_label">
-          <property name="font">
-           <font>
-            <family>DejaVu Math TeX Gyre</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>true</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 0, 0);</string>
-          </property>
-          <property name="text">
-           <string notr="true">- Bamse</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>12</x>
@@ -1167,7 +1106,7 @@ background-color: rgb(0, 0, 0);</string>
          <height>242</height>
         </rect>
        </property>
-       <layout class="QVBoxLayout" name="quote_layout_group_2">
+       <layout class="QVBoxLayout" name="bus_layout_group">
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_10">
           <item>
@@ -1744,6 +1683,82 @@ background-color: rgb(0, 0, 0);</string>
          </layout>
         </item>
        </layout>
+      </widget>
+      <widget class="QLabel" name="quote_label">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>980</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>400</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>rsfs10</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string notr="true">Bla, bla, blaa...</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::NoTextInteraction</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="quotee_label">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>1060</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>400</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>DejaVu Math TeX Gyre</family>
+         <pointsize>16</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string notr="true">- Bamse</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
       </widget>
      </widget>
     </item>
