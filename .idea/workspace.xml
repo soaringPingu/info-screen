@@ -21,10 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9f7597b4-5439-482a-8d96-b340936c874f" name="Default Changelist" comment="Initial commit with main.py copied from another project as a template.&#10;Not working yet">
       <change afterPath="$PROJECT_DIR$/bus_info.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gösta.ui" beforeDir="false" afterPath="$PROJECT_DIR$/gösta.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_gösta.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_gösta.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602965320605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made a config file for the bus information&#10;Made error handling routine to write errors to a log file, with backup&#10;&#10;Still work in progress.">
+      <created>1603655450824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603655450824</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,33 +133,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit with main.py copied from another project as a template.&#10;Not working yet" />
     <MESSAGE value="Included the UI and a few connections are working. This is an intermediate commit at the end of the day." />
-    <option name="LAST_COMMIT_MESSAGE" value="Included the UI and a few connections are working. This is an intermediate commit at the end of the day." />
+    <MESSAGE value="Made a config file for the bus information&#10;Made error handling routine to write errors to a log file, with backup&#10;&#10;Still work in progress." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a config file for the bus information&#10;Made error handling routine to write errors to a log file, with backup&#10;&#10;Still work in progress." />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602956444134">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
     <state x="147" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.2488.1413@72.27.2488.1413" timestamp="1602956444134" />
+    <state x="1049" y="482" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603747864708">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state x="1049" y="482" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.2488.1413@72.27.2488.1413" timestamp="1603747864708" />
     <state x="1199" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602926146487">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
     <state x="1199" y="491" width="424" height="491" key="FileChooserDialogImpl/72.27.2488.1413@72.27.2488.1413" timestamp="1602926146487" />
-    <state width="2465" height="394" key="GridCell.Tab.0.bottom" timestamp="1603655316484">
+    <state width="1232" height="394" key="GridCell.Tab.0.bottom" timestamp="1603753980217">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2465" height="394" key="GridCell.Tab.0.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1603655316484" />
-    <state width="2465" height="394" key="GridCell.Tab.0.center" timestamp="1603655316483">
+    <state width="1232" height="394" key="GridCell.Tab.0.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1603753980217" />
+    <state width="1232" height="394" key="GridCell.Tab.0.center" timestamp="1603753980217">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2465" height="394" key="GridCell.Tab.0.center/72.27.2488.1413@72.27.2488.1413" timestamp="1603655316483" />
-    <state width="2465" height="394" key="GridCell.Tab.0.left" timestamp="1603655316483">
+    <state width="1232" height="394" key="GridCell.Tab.0.center/72.27.2488.1413@72.27.2488.1413" timestamp="1603753980217" />
+    <state width="1232" height="394" key="GridCell.Tab.0.left" timestamp="1603753980217">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2465" height="394" key="GridCell.Tab.0.left/72.27.2488.1413@72.27.2488.1413" timestamp="1603655316483" />
-    <state width="2465" height="394" key="GridCell.Tab.0.right" timestamp="1603655316483">
+    <state width="1232" height="394" key="GridCell.Tab.0.left/72.27.2488.1413@72.27.2488.1413" timestamp="1603753980217" />
+    <state width="1232" height="394" key="GridCell.Tab.0.right" timestamp="1603753980217">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2465" height="394" key="GridCell.Tab.0.right/72.27.2488.1413@72.27.2488.1413" timestamp="1603655316483" />
+    <state width="1232" height="394" key="GridCell.Tab.0.right/72.27.2488.1413@72.27.2488.1413" timestamp="1603753980217" />
+    <state width="1232" height="484" key="GridCell.Tab.1.bottom" timestamp="1603753704478">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1232" height="484" key="GridCell.Tab.1.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1603753704478" />
+    <state width="1232" height="484" key="GridCell.Tab.1.center" timestamp="1603753704478">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1232" height="484" key="GridCell.Tab.1.center/72.27.2488.1413@72.27.2488.1413" timestamp="1603753704478" />
+    <state width="1232" height="484" key="GridCell.Tab.1.left" timestamp="1603753704478">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1232" height="484" key="GridCell.Tab.1.left/72.27.2488.1413@72.27.2488.1413" timestamp="1603753704478" />
+    <state width="1232" height="484" key="GridCell.Tab.1.right" timestamp="1603753704478">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state width="1232" height="484" key="GridCell.Tab.1.right/72.27.2488.1413@72.27.2488.1413" timestamp="1603753704478" />
+    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1603655470112">
+      <screen x="72" y="27" width="2488" height="1413" />
+    </state>
+    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.2488.1413@72.27.2488.1413" timestamp="1603655470112" />
     <state x="1098" y="415" width="426" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603027213147">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
@@ -162,5 +193,16 @@
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
     <state x="979" y="349" width="672" height="678" key="search.everywhere.popup/72.27.2488.1413@72.27.2488.1413" timestamp="1603632821303" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
