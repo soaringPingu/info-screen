@@ -35,7 +35,7 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_5">
     <item>
-     <widget class="QGroupBox" name="TimeGroup">
+     <widget class="QGroupBox" name="timeGroup">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -407,7 +407,7 @@ background-color: rgb(0, 0, 0);</string>
      </widget>
     </item>
     <item>
-     <widget class="QGroupBox" name="WeatherGroup">
+     <widget class="QGroupBox" name="weatherGroup">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -464,7 +464,7 @@ background-color: rgb(0, 0, 0);</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -563,7 +563,7 @@ background-color: rgb(0, 0, 0);</string>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>350</x>
@@ -1158,7 +1158,7 @@ background-color: rgb(0, 0, 0);</string>
      </widget>
     </item>
     <item>
-     <widget class="QGroupBox" name="sScheduleGroup">
+     <widget class="QGroupBox" name="scheduleGroup">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -1188,7 +1188,7 @@ background-color: rgb(0, 0, 0);</string>
      </widget>
     </item>
     <item>
-     <widget class="QGroupBox" name="BusGroup">
+     <widget class="QGroupBox" name="busGroup">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -1217,13 +1217,12 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_7">
        <item>
-        <widget class="QTableView" name="tableView">
+        <widget class="QTableView" name="busTableView">
          <property name="enabled">
           <bool>true</bool>
          </property>
          <property name="styleSheet">
-          <string notr="true">gridline-color: rgb(245, 121, 0);
-background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(155, 155, 155, 255));</string>
+          <string notr="true">background-color: rgb(78, 154, 6);</string>
          </property>
          <property name="midLineWidth">
           <number>1</number>
@@ -1236,6 +1235,9 @@ background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0
          </property>
          <property name="alternatingRowColors">
           <bool>true</bool>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::NoSelection</enum>
          </property>
          <property name="wordWrap">
           <bool>false</bool>
