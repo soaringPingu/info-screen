@@ -22,6 +22,8 @@
     <list default="true" id="9f7597b4-5439-482a-8d96-b340936c874f" name="Default Changelist" comment="Initial commit with main.py copied from another project as a template.&#10;Not working yet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gösta_v2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/gösta_v2.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_gösta_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_gösta_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605560230359</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Quote class is mostly done. Some formatting is still required, bur the rest is working.">
+      <created>1606079094527</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606079094527</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +174,8 @@
     <MESSAGE value="Working on displaying the bus and minibus icons as SVG.&#10;I hve created the objects, but they do not show up. I suspect I need to add them to the widget control somehow." />
     <MESSAGE value="Working on initializing the bus table widget. I can write text to a given cell.&#10;I have not been successful in adding an SVG widget to a cell.&#10;&#10;Giving up for today, I need to sleep!" />
     <MESSAGE value="Working away at the Quote class. Some issues with sizing and positioning the label.&#10;&#10;The Bus information class is now functional." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working away at the Quote class. Some issues with sizing and positioning the label.&#10;&#10;The Bus information class is now functional." />
+    <MESSAGE value="Quote class is mostly done. Some formatting is still required, bur the rest is working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Quote class is mostly done. Some formatting is still required, bur the rest is working." />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602956444134">
@@ -184,46 +194,46 @@
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
     <state x="1199" y="491" width="424" height="491" key="FileChooserDialogImpl/72.27.2488.1413@72.27.2488.1413" timestamp="1602926146487" />
-    <state width="819" height="741" key="GridCell.Tab.0.bottom" timestamp="1606078941065">
+    <state width="819" height="1123" key="GridCell.Tab.0.bottom" timestamp="1606079306894">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="741" key="GridCell.Tab.0.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606078941065" />
-    <state width="819" height="741" key="GridCell.Tab.0.center" timestamp="1606078941064">
+    <state width="819" height="1123" key="GridCell.Tab.0.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606079306894" />
+    <state width="819" height="1123" key="GridCell.Tab.0.center" timestamp="1606079306894">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="741" key="GridCell.Tab.0.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606078941064" />
-    <state width="819" height="741" key="GridCell.Tab.0.left" timestamp="1606078941064">
+    <state width="819" height="1123" key="GridCell.Tab.0.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606079306894" />
+    <state width="819" height="1123" key="GridCell.Tab.0.left" timestamp="1606079306894">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="741" key="GridCell.Tab.0.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606078941064" />
-    <state width="819" height="741" key="GridCell.Tab.0.right" timestamp="1606078941065">
+    <state width="819" height="1123" key="GridCell.Tab.0.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606079306894" />
+    <state width="819" height="1123" key="GridCell.Tab.0.right" timestamp="1606079306894">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="741" key="GridCell.Tab.0.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606078941065" />
-    <state width="2442" height="484" key="GridCell.Tab.1.bottom" timestamp="1606078011895">
+    <state width="819" height="1123" key="GridCell.Tab.0.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606079306894" />
+    <state width="2442" height="484" key="GridCell.Tab.1.bottom" timestamp="1606079226465">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606078011895" />
-    <state width="2442" height="484" key="GridCell.Tab.1.center" timestamp="1606078011894">
+    <state width="2442" height="484" key="GridCell.Tab.1.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606079226465" />
+    <state width="2442" height="484" key="GridCell.Tab.1.center" timestamp="1606079226465">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606078011894" />
-    <state width="2442" height="484" key="GridCell.Tab.1.left" timestamp="1606078011894">
+    <state width="2442" height="484" key="GridCell.Tab.1.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606079226465" />
+    <state width="2442" height="484" key="GridCell.Tab.1.left" timestamp="1606079226464">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606078011894" />
-    <state width="2442" height="484" key="GridCell.Tab.1.right" timestamp="1606078011895">
+    <state width="2442" height="484" key="GridCell.Tab.1.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606079226464" />
+    <state width="2442" height="484" key="GridCell.Tab.1.right" timestamp="1606079226465">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606078011895" />
+    <state width="2442" height="484" key="GridCell.Tab.1.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606079226465" />
     <state x="805" y="368" width="1022" height="737" key="SettingsEditor" timestamp="1604740485634">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
     <state x="805" y="368" width="1022" height="737" key="SettingsEditor/72.27.2488.1413@72.27.2488.1413" timestamp="1604740485634" />
-    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1605560233693">
+    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1606079096828">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.2488.1413@72.27.2488.1413" timestamp="1605560233693" />
+    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.2488.1413@72.27.2488.1413" timestamp="1606079096828" />
     <state x="1098" y="415" width="426" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603027213147">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
