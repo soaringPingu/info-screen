@@ -64,12 +64,12 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_4">
        <item>
-        <layout class="QHBoxLayout" name="se_layout_group_2">
+        <layout class="QHBoxLayout" name="primary_layout_group">
          <property name="leftMargin">
           <number>31</number>
          </property>
          <item>
-          <widget class="QWidget" name="se_map_widget" native="true">
+          <widget class="QWidget" name="prinamry_map_widget" native="true">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -91,7 +91,7 @@ border-image: url(:/maps/ui/maps/Sweden - white. - 49x112.png);</string>
          <item>
           <layout class="QVBoxLayout" name="verticalLayout">
            <item>
-            <widget class="QLabel" name="se_time_label">
+            <widget class="QLabel" name="primary_time_label">
              <property name="font">
               <font>
                <family>rsfs10</family>
@@ -106,7 +106,10 @@ border-image: url(:/maps/ui/maps/Sweden - white. - 49x112.png);</string>
 background-color: rgb(0, 0, 0);</string>
              </property>
              <property name="text">
-              <string notr="true">08:26</string>
+              <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;08:26&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;:11&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="textFormat">
+              <enum>Qt::RichText</enum>
              </property>
              <property name="alignment">
               <set>Qt::AlignCenter</set>
@@ -122,7 +125,7 @@ background-color: rgb(0, 0, 0);</string>
               <number>45</number>
              </property>
              <item>
-              <widget class="QLabel" name="se_day_label">
+              <widget class="QLabel" name="primary_day_label">
                <property name="font">
                 <font>
                  <family>DejaVu Math TeX Gyre</family>
@@ -145,7 +148,7 @@ background-color: rgb(0, 0, 0);</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="se_date_label">
+              <widget class="QLabel" name="primary_date_label">
                <property name="font">
                 <font>
                  <family>DejaVu Math TeX Gyre</family>
@@ -168,7 +171,7 @@ background-color: rgb(0, 0, 0);</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="se_month_label">
+              <widget class="QLabel" name="primary_month_label">
                <property name="font">
                 <font>
                  <family>DejaVu Math TeX Gyre</family>
@@ -195,7 +198,7 @@ background-color: rgb(0, 0, 0);</string>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_7">
              <item>
-              <widget class="QLabel" name="se_occation_label">
+              <widget class="QLabel" name="primary_occasion_label">
                <property name="font">
                 <font>
                  <family>DejaVu Math TeX Gyre</family>
@@ -218,7 +221,7 @@ background-color: rgb(0, 0, 0);</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="se_week_label">
+              <widget class="QLabel" name="primary_week_label">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
                  <horstretch>0</horstretch>
@@ -265,9 +268,9 @@ background-color: rgb(0, 0, 0);</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="nz_layout_group">
+        <layout class="QHBoxLayout" name="secondary_layout_group">
          <item>
-          <widget class="QWidget" name="nz_map_widget" native="true">
+          <widget class="QWidget" name="secondary_map_widget" native="true">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -288,7 +291,7 @@ background-color: rgb(0, 0, 0);</string>
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_2">
            <item>
-            <widget class="QLabel" name="nz_time_label">
+            <widget class="QLabel" name="secondary_time_label">
              <property name="font">
               <font>
                <family>rsfs10</family>
@@ -299,7 +302,7 @@ background-color: rgb(0, 0, 0);</string>
               </font>
              </property>
              <property name="styleSheet">
-              <string notr="true">color: rgb(255, 255, 255);
+              <string notr="true">color: rgb(114, 159, 207);
 background-color: rgb(0, 0, 0);</string>
              </property>
              <property name="text">
@@ -319,7 +322,7 @@ background-color: rgb(0, 0, 0);</string>
               <number>100</number>
              </property>
              <item>
-              <widget class="QLabel" name="nz_day_label">
+              <widget class="QLabel" name="secondary_day_label">
                <property name="font">
                 <font>
                  <family>DejaVu Math TeX Gyre</family>
@@ -330,7 +333,7 @@ background-color: rgb(0, 0, 0);</string>
                 </font>
                </property>
                <property name="styleSheet">
-                <string notr="true">color: rgb(255, 255, 255);
+                <string notr="true">color: rgb(114, 159, 207);
 background-color: rgb(0, 0, 0);</string>
                </property>
                <property name="text">
@@ -342,7 +345,7 @@ background-color: rgb(0, 0, 0);</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="nz_date_label">
+              <widget class="QLabel" name="secondary_date_label">
                <property name="font">
                 <font>
                  <family>DejaVu Math TeX Gyre</family>
@@ -353,7 +356,7 @@ background-color: rgb(0, 0, 0);</string>
                 </font>
                </property>
                <property name="styleSheet">
-                <string notr="true">color: rgb(255, 255, 255);
+                <string notr="true">color: rgb(114, 159, 207);
 background-color: rgb(0, 0, 0);</string>
                </property>
                <property name="text">
@@ -365,7 +368,7 @@ background-color: rgb(0, 0, 0);</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="nz_month_label">
+              <widget class="QLabel" name="secondary_month_label">
                <property name="font">
                 <font>
                  <family>DejaVu Math TeX Gyre</family>
@@ -376,11 +379,79 @@ background-color: rgb(0, 0, 0);</string>
                 </font>
                </property>
                <property name="styleSheet">
-                <string notr="true">color: rgb(255, 255, 255);
+                <string notr="true">color: rgb(114, 159, 207);
 background-color: rgb(0, 0, 0);</string>
                </property>
                <property name="text">
                 <string notr="true">November</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QLabel" name="secondary_occasion_label">
+               <property name="font">
+                <font>
+                 <family>DejaVu Math TeX Gyre</family>
+                 <pointsize>16</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(114, 159, 207);
+background-color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="text">
+                <string notr="true">Julafton</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="secondary_week_label">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>50</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>DejaVu Math TeX Gyre</family>
+                 <pointsize>16</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(114, 159, 207);
+background-color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="text">
+                <string notr="true">V 41</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignCenter</set>
@@ -469,8 +540,8 @@ background-color: rgb(0, 0, 0);</string>
         <rect>
          <x>20</x>
          <y>20</y>
-         <width>231</width>
-         <height>286</height>
+         <width>318</width>
+         <height>290</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_3">
