@@ -49,12 +49,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ui" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606341131934</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="The time group is now complete apart from the occasion, which is still to be completed">
+      <created>1606609353365</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606609353365</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +198,8 @@
     <MESSAGE value="Quote class is mostly done. Some formatting is still required, bur the rest is working." />
     <MESSAGE value="Quick fix to the formatting of the quote group. This was done using Qt Designer." />
     <MESSAGE value="Debugging the Time-date group part of the info display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugging the Time-date group part of the info display" />
+    <MESSAGE value="The time group is now complete apart from the occasion, which is still to be completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="The time group is now complete apart from the occasion, which is still to be completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602956444134">
@@ -210,46 +218,46 @@
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
     <state x="1199" y="491" width="424" height="491" key="FileChooserDialogImpl/72.27.2488.1413@72.27.2488.1413" timestamp="1602926146487" />
-    <state width="819" height="1119" key="GridCell.Tab.0.bottom" timestamp="1606609284848">
+    <state width="2442" height="484" key="GridCell.Tab.0.bottom" timestamp="1606609375421">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="1119" key="GridCell.Tab.0.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606609284848" />
-    <state width="819" height="1119" key="GridCell.Tab.0.center" timestamp="1606609284848">
+    <state width="2442" height="484" key="GridCell.Tab.0.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375421" />
+    <state width="2442" height="484" key="GridCell.Tab.0.center" timestamp="1606609375420">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="1119" key="GridCell.Tab.0.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606609284848" />
-    <state width="819" height="1119" key="GridCell.Tab.0.left" timestamp="1606609284847">
+    <state width="2442" height="484" key="GridCell.Tab.0.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375420" />
+    <state width="2442" height="484" key="GridCell.Tab.0.left" timestamp="1606609375419">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="1119" key="GridCell.Tab.0.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606609284847" />
-    <state width="819" height="1119" key="GridCell.Tab.0.right" timestamp="1606609284848">
+    <state width="2442" height="484" key="GridCell.Tab.0.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375419" />
+    <state width="2442" height="484" key="GridCell.Tab.0.right" timestamp="1606609375421">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="819" height="1119" key="GridCell.Tab.0.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606609284848" />
-    <state width="2442" height="484" key="GridCell.Tab.1.bottom" timestamp="1606606508989">
+    <state width="2442" height="484" key="GridCell.Tab.0.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375421" />
+    <state width="2442" height="484" key="GridCell.Tab.1.bottom" timestamp="1606609375422">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606606508989" />
-    <state width="2442" height="484" key="GridCell.Tab.1.center" timestamp="1606606508989">
+    <state width="2442" height="484" key="GridCell.Tab.1.bottom/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375422" />
+    <state width="2442" height="484" key="GridCell.Tab.1.center" timestamp="1606609375422">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606606508989" />
-    <state width="2442" height="484" key="GridCell.Tab.1.left" timestamp="1606606508988">
+    <state width="2442" height="484" key="GridCell.Tab.1.center/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375422" />
+    <state width="2442" height="484" key="GridCell.Tab.1.left" timestamp="1606609375421">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606606508988" />
-    <state width="2442" height="484" key="GridCell.Tab.1.right" timestamp="1606606508989">
+    <state width="2442" height="484" key="GridCell.Tab.1.left/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375421" />
+    <state width="2442" height="484" key="GridCell.Tab.1.right" timestamp="1606609375422">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state width="2442" height="484" key="GridCell.Tab.1.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606606508989" />
+    <state width="2442" height="484" key="GridCell.Tab.1.right/72.27.2488.1413@72.27.2488.1413" timestamp="1606609375422" />
     <state x="805" y="368" width="1022" height="737" key="SettingsEditor" timestamp="1604740485634">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
     <state x="805" y="368" width="1022" height="737" key="SettingsEditor/72.27.2488.1413@72.27.2488.1413" timestamp="1604740485634" />
-    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1606341134810">
+    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1606609356021">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
-    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.2488.1413@72.27.2488.1413" timestamp="1606341134810" />
+    <state x="911" y="455" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.2488.1413@72.27.2488.1413" timestamp="1606609356021" />
     <state x="1098" y="415" width="426" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603027213147">
       <screen x="72" y="27" width="2488" height="1413" />
     </state>
@@ -268,7 +276,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>575</line>
+          <line>1027</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
