@@ -1,0 +1,25 @@
+[common]
+application_name = Info screen
+width = 1024
+height = 768
+application_is_frameless = False
+
+[date_time]
+enabled = True
+module_title = Today
+primary_time_zone = Europe/Stockholm # Find more at: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+enable_primary_seconds = True
+enable_primary_week = True
+enable_secondary_time = True
+secondary_time_zone = Pacific/Auckland # Find more at: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+enable_secondary_seconds = False
+enable_secondary_week = False
+
+[quote]
+enabled = True
+module_title = Quote of the day
+# If the URL below is changed, the GetData function must be updated accordingly
+quote_url = https://adafruit.com
+default_quote = I said it!
+default_quoter = Me
+
